@@ -59,7 +59,7 @@ function windowResized() {
 }
 
 //blurring effect
-const BLUR = 1;
+const BLUR = 1.5;
 
 function blurEffect(t) {
   const blur = sin(t * PI);
